@@ -1,0 +1,32 @@
+.accordion-body{
+ font-size: 17px;
+}
+.accordion-item{
+ margin-bottom: 10px;
+}
+.accordion-header .accordion-button{
+ width: 100%;
+ font-size: 20px;
+ display: flex;
+ justify-content: center;
+ color: rgb(218, 155, 73);
+ font-weight: normal;
+}
+.accordion-header .accordion-button:focus{
+ border-color: unset;
+ box-shadow: none;
+}
+.accordion-header .accordion-button::after{
+ width: 30px;
+ height: 30px;
+ margin-left: 0;
+ margin-top: 5px;
+}
+.accordion-header .accordion-button:not(.collapsed){
+ color: rgb(218, 155, 73);
+ font-weight: normal;
+ background-color: #202020;
+}
+.accordion .accordion-item:not(:first-of-type){
+ border-top: 1px solid rgba(0,0,0,.125);
+}
